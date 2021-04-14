@@ -4,7 +4,8 @@ import App from './App'
 import {$http} from '@escook/request-miniprogram'
 // 在顶级对象uni上挂载$http的方法做请求
 uni.$http = $http
-$http.baseUrl = 'https://www.uinav.com'
+// $http.baseUrl = 'https://www.uinav.com'
+$http.baseUrl = 'https://api-hmugo-web.itheima.net'
 
 Vue.config.productionTip = false
 // 请求开始之前做一些事情

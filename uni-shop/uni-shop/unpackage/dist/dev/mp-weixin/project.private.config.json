@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "subpkg/search/search",
-          "pathName": "subpkg/search/search",
+          "name": "subpkg/goods_list/goods_list",
+          "pathName": "subpkg/goods_list/goods_list",
           "query": "",
           "scene": null
         }
