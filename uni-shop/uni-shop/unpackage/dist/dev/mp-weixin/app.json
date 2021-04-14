@@ -5,11 +5,20 @@
     "pages/cart/cart",
     "pages/my/my"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "good_detail/good_detail",
+        "goods_list/goods_list",
+        "search/search"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "优购",
-    "navigationBarBackgroundColor": "#C000000",
+    "navigationBarBackgroundColor": "#C00000",
     "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
@@ -40,5 +49,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

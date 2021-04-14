@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "subpkg/search/search",
+          "pathName": "subpkg/search/search",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
